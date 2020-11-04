@@ -32,3 +32,5 @@ Now we can add secrets to the new secret engine path
 ```
 
 vault kv list kv/ - To list the key/value pairs.
+
+vault secrets disable kv/ - To disable the secret path.
